@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homeworks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruits/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruits/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruits/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruits/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fruits/Orange.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +40,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/valeriapodezva/Downloads/homework_2/src/main/java/ru/fedynko/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.numbers.Main">
+  <component name="RunManager" selected="Application.fruits.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.fedynko.Main" />
       <module name="homework_2" />
@@ -76,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fruits.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fruits.Main" />
+      <module name="homework_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fruits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="numbers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="numbers.Main" />
       <module name="homework_2" />
@@ -91,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fruits.Main" />
         <item itemvalue="Application.numbers.Main" />
         <item itemvalue="Application.PhoneHandbook" />
         <item itemvalue="Application.cars.Main" />
@@ -114,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706787130092</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="homeworks">
+      <created>1707206876714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707206876714</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
