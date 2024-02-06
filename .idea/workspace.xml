@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework fruits">
-      <change beforePath="$PROJECT_DIR$/src/main/java/fruits/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruits/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fruits/Orange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fruits/Orange.java" afterDir="false" />
+    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework fruit">
+      <change beforePath="$PROJECT_DIR$/src/main/java/numbers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/numbers/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/valeriapodezva/Downloads/homework_2/src/main/java/ru/fedynko/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.fruits.Main">
+  <component name="RunManager" selected="Application.numbers.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.fedynko.Main" />
       <module name="homework_2" />
@@ -105,8 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.fruits.Main" />
         <item itemvalue="Application.numbers.Main" />
+        <item itemvalue="Application.fruits.Main" />
         <item itemvalue="Application.PhoneHandbook" />
         <item itemvalue="Application.cars.Main" />
         <item itemvalue="Application.Main" />
@@ -143,12 +142,27 @@
       <option name="project" value="LOCAL" />
       <updated>1707207788483</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="homework fruit">
+      <created>1707208085549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707208085549</updated>
+    </task>
+    <task id="LOCAL-00005" summary="homework fruit">
+      <created>1707208204773</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707208204773</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homeworks" />
     <MESSAGE value="homework fruits" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework fruits" />
+    <MESSAGE value="homework fruit" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework fruit" />
   </component>
 </project>
