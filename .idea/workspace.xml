@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework fruit">
-      <change beforePath="$PROJECT_DIR$/src/main/java/numbers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/numbers/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework names" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,13 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1707208204773</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="homework names">
+      <created>1707208641958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707208641958</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="homeworks" />
     <MESSAGE value="homework fruits" />
     <MESSAGE value="homework fruit" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework fruit" />
+    <MESSAGE value="homework names" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework names" />
   </component>
 </project>

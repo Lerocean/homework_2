@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        String[] names = {"Alex", "Kate", "Andrew", "Natalie", "Anastasia"};
-        System.out.println("Before swap: " + Arrays.toString(names));
-        swapElements(names, 4, 2);
-        System.out.println("After swap: " + Arrays.toString(names));
+        String[] letters = {"A", "B", "C", "D", "E", "F", "G"};
+        System.out.println("Before swap: " + Arrays.toString(letters));
+        swapElements(letters, 5, 1);
+        System.out.println("After swap: " + Arrays.toString(letters));
 
     }
 
