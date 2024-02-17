@@ -54,9 +54,7 @@ public class Main {
     }
     private static List<Student> getMostCuriousStudents(List<Student> students) {
         return students.stream()
-                .sorted(Comparator.comparingInt((Student student
-
-                ) -> student.getAllCourses().size()).reversed())
+                .sorted(Comparator.comparingInt((Student student) -> student.getAllCourses().size()).reversed())
                 .limit(3)
                 .collect(Collectors.toList());
     }
