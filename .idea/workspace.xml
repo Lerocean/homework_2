@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework names" />
+    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework names">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/CourseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StudentsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -34,13 +42,13 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/valeriapodezva/Downloads/homework_2/src/main/java/ru/fedynko/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.numbers.Main">
+  <component name="RunManager" selected="Application.stream.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.fedynko.Main" />
+      <option name="MAIN_CLASS_NAME" value="stream.Main" />
       <module name="homework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.fedynko.*" />
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="numbers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="numbers.Main" />
+    <configuration name="letters.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letters.Main" />
       <module name="homework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="numbers.*" />
+          <option name="PATTERN" value="letters.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.numbers.Main" />
+        <item itemvalue="Application.stream.Main" />
+        <item itemvalue="Application.letters.Main" />
         <item itemvalue="Application.fruits.Main" />
         <item itemvalue="Application.PhoneHandbook" />
         <item itemvalue="Application.cars.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +169,28 @@
       <option name="project" value="LOCAL" />
       <updated>1707208641958</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="homework names">
+      <created>1707209365099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707209365099</updated>
+    </task>
+    <task id="LOCAL-00008" summary="homework names">
+      <created>1707209420940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1707209420940</updated>
+    </task>
+    <task id="LOCAL-00009" summary="homework names">
+      <created>1707456132290</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707456132290</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
