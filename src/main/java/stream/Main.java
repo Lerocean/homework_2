@@ -1,10 +1,6 @@
 package stream;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import stream.Student;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -16,7 +12,6 @@ public class Main {
         students.add(new StudentImpl("Jack"));
         students.add(new StudentImpl("Fred"));
 
-        // Добавление курсов студентам
         students.get(0).addCourse(new CourseImpl("Math"));
         students.get(0).addCourse(new CourseImpl("Physics"));
         students.get(1).addCourse(new CourseImpl("Physics"));
@@ -36,16 +31,44 @@ public class Main {
         students.get(4).addCourse(new CourseImpl("Computer Science"));
         students.get(4).addCourse(new CourseImpl("Sport"));
 
-
-        List<Course> subscribedCourses = getSubscribedCourses(students);
+        List<String> subscribedCourses = getSubscribedCourses(students);
         System.out.println(subscribedCourses);
+
+        List<Student> mostCuriousStudents = getMostCuriousStudents(students);
+        System.out.println(mostCuriousStudents);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the name of the subject: ");
+        String subjectName = scanner.nextLine();
+        Course course = new CourseImpl(subjectName);
+
+        printStudentsByCourse(students, course);
     }
 
-    private static List<Course> getSubscribedCourses(List<Student> students) {
+    private static List<String> getSubscribedCourses(List<Student> students) {
         return students.stream()
                 .flatMap(student -> student.getAllCourses().stream())
+                .map(Course::getName)
                 .distinct()
                 .collect(Collectors.toList());
     }
+    private static List<Student> getMostCuriousStudents(List<Student> students) {
+        return students.stream()
+                .sorted(Comparator.comparingInt((Student student
 
+                ) -> student.getAllCourses().size()).reversed())
+                .limit(3)
+                .collect(Collectors.toList());
+    }
+
+    private static void printStudentsByCourse(List<Student> students, Course course) {
+        List<Student> studentsByCourse = students.stream()
+                .filter(student -> student.getAllCourses().stream()
+                        .anyMatch(c -> c.getName().equals(course.getName())))
+                .toList();
+
+        for (Student student : studentsByCourse) {
+            System.out.println(student.name());
+        }
+    }
 }

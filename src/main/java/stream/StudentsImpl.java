@@ -4,6 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 class StudentImpl implements Student {
+    @Override
+    public String toString() {
+        return "StudentImpl{" +
+                "name='" + name + '\'' +
+                ", courses=" + courses +
+                '}';
+    }
+
     private final String name;
     private final List<Course> courses;
 
@@ -14,7 +22,7 @@ class StudentImpl implements Student {
 
     @Override
     public String name() {
-        return null;
+        return name;
     }
 
     @Override
@@ -25,10 +33,6 @@ class StudentImpl implements Student {
     @Override
     public void addCourse(Course course) {
         courses.add(course);
-    }
-
-    public String getName() {
-        return name;
     }
 }
 
