@@ -41,8 +41,9 @@ public class Main {
         System.out.print("Enter the name of the subject: ");
         String subjectName = scanner.nextLine();
         Course course = new CourseImpl(subjectName);
-
         printStudentsByCourse(students, course);
+
+
     }
 
     private static List<String> getSubscribedCourses(List<Student> students) {
@@ -52,6 +53,7 @@ public class Main {
                 .distinct()
                 .collect(Collectors.toList());
     }
+
     private static List<Student> getMostCuriousStudents(List<Student> students) {
         return students.stream()
                 .sorted(Comparator.comparingInt((Student student) -> student.getAllCourses().size()).reversed())
