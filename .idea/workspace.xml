@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework Students and Courses">
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream_by_mentor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream_by_mentor/TestStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream_by_mentor/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stream/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stream/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,12 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/valeriapodezva/Downloads/homework_2/src/main/java/ru/fedynko/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.stream.Main">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="stream_by_mentor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.stream_by_mentor.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.Main" />
       <module name="homework_2" />
@@ -58,19 +65,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="PhoneHandbook.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="cars.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cars.Main" />
-      <module name="homework_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cars.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stream_by_mentor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream_by_mentor.Main" />
+      <module name="homework_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream_by_mentor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stream_by_mentor.Main" />
         <item itemvalue="Application.stream.Main" />
         <item itemvalue="Application.letters.Main" />
         <item itemvalue="Application.fruits.Main" />
         <item itemvalue="Application.PhoneHandbook" />
-        <item itemvalue="Application.cars.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708177814066</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="homework Students and Courses">
+      <created>1708329014714</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708329014714</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
