@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework Students and Courses">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream_by_mentor/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream_by_mentor/TestStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stream_by_mentor/User.java" afterDir="false" />
+    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework TestStream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmer/Programmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
       <recent name="stream_by_mentor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.stream_by_mentor.Main">
+  <component name="RunManager" selected="Application.Programmer">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stream.Main" />
       <module name="homework_2" />
@@ -59,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneHandbook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PhoneHandbook.PhoneHandbook" />
+    <configuration name="Programmer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmer.Programmer" />
       <module name="homework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PhoneHandbook.*" />
+          <option name="PATTERN" value="programmer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +112,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Programmer" />
         <item itemvalue="Application.stream_by_mentor.Main" />
-        <item itemvalue="Application.stream.Main" />
         <item itemvalue="Application.letters.Main" />
         <item itemvalue="Application.fruits.Main" />
-        <item itemvalue="Application.PhoneHandbook" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708329014714</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="homework TestStream">
+      <created>1708425678315</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1708425678315</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -238,6 +243,18 @@
     <MESSAGE value="homework names" />
     <MESSAGE value="homework Student" />
     <MESSAGE value="homework Students and Courses" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework Students and Courses" />
+    <MESSAGE value="homework TestStream" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework TestStream" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/stream_by_mentor/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
