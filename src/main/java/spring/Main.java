@@ -1,12 +1,11 @@
 package spring;
 
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+import ru.spring.OrderDaoImpl;
+import ru.fedynko.*;
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        FoodDeliveryService foodDeliveryService = (FoodDeliveryService) context.getBean("foodDeliveryService");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        FoodDeliveryService foodDeliveryService = context.getBean(FoodDeliveryService.class);
         String orderId = "123";
         foodDeliveryService.deliverFood(orderId);
     }

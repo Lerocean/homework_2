@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework TestStream">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmer/Programmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/Main.java" afterDir="false" />
+    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework spring context">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/FoodDeliveryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/FoodDeliveryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/OrderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,26 +36,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/valeriapodezva/Downloads/homework_2/src/main/java/ru/fedynko/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "/Users/valeriapodezva/Downloads/homework_2/src/main/java/ru/fedynko/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="stream_by_mentor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Programmer">
+  <component name="RunManager" selected="Application.spring.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream.Main" />
+      <option name="MAIN_CLASS_NAME" value="spring.Main" />
       <module name="homework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream.*" />
+          <option name="PATTERN" value="spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.spring.Main" />
         <item itemvalue="Application.Programmer" />
         <item itemvalue="Application.stream_by_mentor.Main" />
         <item itemvalue="Application.letters.Main" />
@@ -233,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708425678315</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="homework spring">
+      <created>1709029145221</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709029145221</updated>
+    </task>
+    <task id="LOCAL-00017" summary="homework spring context">
+      <created>1709046853252</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1709046853252</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,7 +267,9 @@
     <MESSAGE value="homework Student" />
     <MESSAGE value="homework Students and Courses" />
     <MESSAGE value="homework TestStream" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework TestStream" />
+    <MESSAGE value="homework spring" />
+    <MESSAGE value="homework spring context" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework spring context" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
