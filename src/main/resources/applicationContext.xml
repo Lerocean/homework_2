@@ -3,8 +3,11 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                            http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="foodDeliveryService" class="FoodDeliveryServiceImpl">
-        <bean id="orderDao" class="OrderDaoImpl" />
+    <bean id="foodDeliveryService" class="spring.FoodDeliveryServiceImpl">
+        <constructor-arg name="orderDao" ref="orderDaoImpl" />
+    </bean>
+
+    <bean id="orderDaoImpl" class="spring.OrderDaoImpl">
     </bean>
 
 </beans>
