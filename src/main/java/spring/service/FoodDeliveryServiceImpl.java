@@ -1,4 +1,6 @@
-package spring;
+package spring.service;
+
+import spring.dao.OrderDao;
 
 public class FoodDeliveryServiceImpl implements FoodDeliveryService {
     private final OrderDao orderDao;
