@@ -3,7 +3,7 @@ package spring;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import spring.service.FoodDeliveryService;
-import wrongPackage.WrongService;
+import spring.wrongPackage.WrongService;
 
 @ComponentScan
 public class Main {
@@ -15,6 +15,6 @@ public class Main {
         foodDeliveryService.deliverFood(orderId);
 
         WrongService wrongService = context.getBean(WrongService.class);
-        System.out.println("Ok i got wrong service");
+        wrongService.printCar();
     }
 }

@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="homework spring context">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/configuration/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wrongPackage/WrongConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wrongPackage/WrongService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="Annotation java spring context&#10;example wrong package (component scan)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring/model/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/FoodDeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/service/FoodDeliveryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/FoodDeliveryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/service/FoodDeliveryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/dao/OrderDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/configuration/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/configuration/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/dao/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/dao/OrderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/service/FoodDeliveryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/service/FoodDeliveryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrongPackage/WrongConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrongPackage/WrongService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/wrongPackage/WrongService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +63,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -160,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706460099014</updated>
-      <workItem from="1709099243182" duration="1078000" />
+      <workItem from="1709099243182" duration="2037000" />
     </task>
     <task id="LOCAL-00001" summary="homeworks">
       <created>1706787130092</created>
@@ -288,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709053943653</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Annotation java spring context&#10;example wrong package (component scan)">
+      <option name="closed" value="true" />
+      <created>1709100382284</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709100382284</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -301,7 +308,8 @@
     <MESSAGE value="homework TestStream" />
     <MESSAGE value="homework spring" />
     <MESSAGE value="homework spring context" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework spring context" />
+    <MESSAGE value="Annotation java spring context&#10;example wrong package (component scan)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Annotation java spring context&#10;example wrong package (component scan)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

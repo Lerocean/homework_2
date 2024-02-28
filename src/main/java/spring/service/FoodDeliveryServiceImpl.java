@@ -1,7 +1,9 @@
 package spring.service;
 
+import org.springframework.stereotype.Service;
 import spring.dao.OrderDao;
 
+@Service
 public class FoodDeliveryServiceImpl implements FoodDeliveryService {
     private final OrderDao orderDao;
 

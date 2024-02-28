@@ -1,22 +1,18 @@
 package spring.configuration;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import spring.dao.OrderDao;
-import spring.dao.OrderDaoImpl;
-import spring.service.FoodDeliveryService;
-import spring.service.FoodDeliveryServiceImpl;
 
 @Configuration
 public class ApplicationConfiguration {
 
     @Bean
-    public OrderDao getOrderDao() {
-        return new OrderDaoImpl();
+    public ObjectMapper getObjectMapper() {
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.enable(SerializationFeature.WRAP_ROOT_VALUE);
+        return objectMapper;
     }
 
-    @Bean
-    public FoodDeliveryService getFoodDeliveryService(OrderDao orderDao) {
-        return new FoodDeliveryServiceImpl(orderDao);
-    }
 }
