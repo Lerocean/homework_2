@@ -1,6 +1,6 @@
-package bean_questions;
+package bean_questions.dao;
 
-public class Question {
+public class QuestionDao {
     private String question;
     private String answer;
     public String getQuestion() {
