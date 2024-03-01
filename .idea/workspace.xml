@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="homework spring context">
+    <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="quiz harry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/dao/QuestionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/TestingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/dao/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bean_questions.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bean_questions.Main" />
+    <configuration name="TestService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bean_questions.service.TestService" />
       <module name="homework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bean_questions.*" />
+          <option name="PATTERN" value="bean_questions.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="letters.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="letters.Main" />
+    <configuration name="bean_questions.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bean_questions.Main" />
       <module name="homework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="letters.*" />
+          <option name="PATTERN" value="bean_questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,10 +122,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.bean_questions.Main" />
+        <item itemvalue="Application.TestService" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Programmer" />
         <item itemvalue="Application.stream_by_mentor.Main" />
-        <item itemvalue="Application.letters.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709100382284</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="quiz harry">
+      <created>1709314682844</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1709314682844</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +304,8 @@
     <MESSAGE value="homework spring" />
     <MESSAGE value="homework spring context" />
     <MESSAGE value="Annotation java spring context&#10;example wrong package (component scan)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Annotation java spring context&#10;example wrong package (component scan)" />
+    <MESSAGE value="quiz harry" />
+    <option name="LAST_COMMIT_MESSAGE" value="quiz harry" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

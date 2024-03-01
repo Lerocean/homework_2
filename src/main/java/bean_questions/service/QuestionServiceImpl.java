@@ -1,6 +1,6 @@
 package bean_questions.service;
 
-import bean_questions.dao.QuestionDao;
+import bean_questions.dao.Question;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
@@ -12,18 +12,18 @@ import java.util.ArrayList;
 import java.util.List;
 @Service
 public class QuestionServiceImpl implements QuestionService {
-    private List<QuestionDao> questionDaos;
+    private List<Question> questions;
 
     @Override
-    public List<QuestionDao> getQuestions() {
-        if (questionDaos == null) {
-            questionDaos = loadQuestions();
+    public List<Question> getQuestions() {
+        if (questions == null) {
+            questions = new ArrayList<>();
+            questions.addAll(loadQuestions());
         }
-        return questionDaos;
+        return questions;
     }
-
-    private List<QuestionDao> loadQuestions() {
-        List<QuestionDao> questionDaos = new ArrayList<>();
+    private List<Question> loadQuestions() {
+        List<Question> questions = new ArrayList<>();
         String QUESTIONS_FILE = "questions.csv";
         String ANSWERS_FILE = "answers.csv";
         try (InputStream questionsInputStream = new ClassPathResource(QUESTIONS_FILE).getInputStream();
@@ -39,22 +39,22 @@ public class QuestionServiceImpl implements QuestionService {
                     (answerLine = answersBufferedReader.readLine()) != null) {
                 String[] questionData = questionLine.split(",");
                 if (questionData.length == 1) {
-                    QuestionDao questionDao = new QuestionDao();
-                    questionDao.setQuestion(questionData[0]);
-                    questionDao.setAnswer(answerLine.trim());
-                    questionDaos.add(questionDao);
+                    Question question = new Question();
+                    question.setQuestion(questionData[0]);
+                    question.setAnswer(answerLine.trim());
+                    questions.add(question);
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("Ошибка чтения вопросов, попробуйте снова");
         }
-        return questionDaos;
+        return questions;
     }
 
-    public String getCorrectAnswer(QuestionDao questionDao) {
-        for (QuestionDao q : questionDaos) {
-            if (q.getQuestion().equals(questionDao.getQuestion())) {
-                return q.getAnswer();
+    public String getCorrectAnswer(Question question) {
+        for (Question k : questions) {
+            if (k.getQuestion().equals(question.getQuestion())) {
+                return k.getAnswer();
             }
         }
         return null;
