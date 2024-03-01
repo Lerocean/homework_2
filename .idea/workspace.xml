@@ -14,6 +14,13 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/questions.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/configuration/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/configuration/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/dao/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/dao/OrderDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring/service/FoodDeliveryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/service/FoodDeliveryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrongPackage/WrongConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wrongPackage/WrongService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/wrongPackage/WrongService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/valeriapodezva/Downloads/homework_2/src/main/java/ru/fedynko/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -50,7 +69,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="stream_by_mentor" />
@@ -59,6 +78,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
+  <component name="RunManager" selected="Application.Main">
   <component name="RunManager" selected="Application.TestingApp">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spring.Main" />
@@ -86,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bean_questions.TestingApp" />
+    <configuration name="fruits.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fruits.Main" />
       <module name="homework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bean_questions.*" />
+          <option name="PATTERN" value="fruits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,9 +149,11 @@
       <list>
         <item itemvalue="Application.TestingApp" />
         <item itemvalue="Application.spring.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Programmer" />
         <item itemvalue="Application.stream_by_mentor.Main" />
         <item itemvalue="Application.letters.Main" />
+        <item itemvalue="Application.fruits.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709053943653</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Annotation java spring context&#10;example wrong package (component scan)">
+      <option name="closed" value="true" />
+      <created>1709100382284</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709100382284</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -283,7 +313,8 @@
     <MESSAGE value="homework TestStream" />
     <MESSAGE value="homework spring" />
     <MESSAGE value="homework spring context" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework spring context" />
+    <MESSAGE value="Annotation java spring context&#10;example wrong package (component scan)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Annotation java spring context&#10;example wrong package (component scan)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
