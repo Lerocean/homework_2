@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="quiz harry">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/dao/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709314682844</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="quiz harry">
+      <created>1709318477619</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1709318477619</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

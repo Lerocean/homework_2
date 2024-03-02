@@ -5,10 +5,11 @@ import bean_questions.dao.Question;
 import bean_questions.service.QuestionService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.util.List;
 import java.util.Scanner;
-
+@ComponentScan
 public class Main {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
