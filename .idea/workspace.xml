@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="quiz harry">
+    <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="quiz harry; add annotation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -281,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709318477619</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="quiz harry; add annotation">
+      <created>1709369274865</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1709369274866</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,7 +315,8 @@
     <MESSAGE value="homework spring context" />
     <MESSAGE value="Annotation java spring context&#10;example wrong package (component scan)" />
     <MESSAGE value="quiz harry" />
-    <option name="LAST_COMMIT_MESSAGE" value="quiz harry" />
+    <MESSAGE value="quiz harry; add annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="quiz harry; add annotation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

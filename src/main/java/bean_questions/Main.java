@@ -21,7 +21,7 @@ public class Main {
 
             if (name.isEmpty()) {
                 System.out.println("Вы не ввели ответ. Пожалуйста, попробуйте снова.");
-                System.exit(0);
+
             }
             List<Question> questions = questionService.getQuestions();
             int score = 0;
@@ -44,8 +44,8 @@ public class Main {
 
             System.out.println("Результат тестирования для " + name + ":");
             System.out.println("Правильных ответов: " + score);
-            System.out.println("Неправильных ответов: " + (maxQuestions - score));
-
+            System.out.println("Неправильных ответов: " + (questionCount - score));
         }
+
     }
 }
