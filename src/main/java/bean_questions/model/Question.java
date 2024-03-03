@@ -1,4 +1,4 @@
-package bean_questions.dao;
+package bean_questions.model;
 
 public class Question {
     private String question;

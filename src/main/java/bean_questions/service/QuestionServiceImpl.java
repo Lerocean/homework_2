@@ -1,62 +1,50 @@
 package bean_questions.service;
 
-import bean_questions.dao.Question;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.stereotype.Service;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
+import bean_questions.model.Question;
+import bean_questions.dao.QuestionDao;
 import java.util.List;
-@Service
+import java.util.Scanner;
+
 public class QuestionServiceImpl implements QuestionService {
-    private List<Question> questions;
+
+    private final QuestionDao questionDao;
+
+    public QuestionServiceImpl(QuestionDao questionDao) {
+        this.questionDao = questionDao;
+    }
 
     @Override
-    public List<Question> getQuestions() {
-        if (questions == null) {
-            questions = new ArrayList<>();
-            questions.addAll(loadQuestions());
-        }
-        return questions;
-    }
-    private List<Question> loadQuestions() {
-        List<Question> questions = new ArrayList<>();
-        String QUESTIONS_FILE = "questions.csv";
-        String ANSWERS_FILE = "answers.csv";
-        try (InputStream questionsInputStream = new ClassPathResource(QUESTIONS_FILE).getInputStream();
-             InputStreamReader questionsReader = new InputStreamReader(questionsInputStream);
-             BufferedReader questionsBufferedReader = new BufferedReader(questionsReader);
-             InputStream answersInputStream = new ClassPathResource(ANSWERS_FILE).getInputStream();
-             InputStreamReader answersReader = new InputStreamReader(answersInputStream);
-             BufferedReader answersBufferedReader = new BufferedReader(answersReader)) {
+    public void askQuestions() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите фамилию и имя: ");
+        String name = scanner.nextLine();
 
-            String questionLine;
-            String answerLine;
-            while ((questionLine = questionsBufferedReader.readLine()) != null &&
-                    (answerLine = answersBufferedReader.readLine()) != null) {
-                String[] questionData = questionLine.split(",");
-                if (questionData.length == 1) {
-                    Question question = new Question();
-                    question.setQuestion(questionData[0]);
-                    question.setAnswer(answerLine.trim());
-                    questions.add(question);
-                }
-            }
-        } catch (IOException e) {
-            System.out.println("Ошибка чтения вопросов, попробуйте снова");
+        if (name.isEmpty()) {
+            System.out.println("Вы не ввели ответ. Пожалуйста, попробуйте снова.");
+            System.exit(0);
         }
-        return questions;
-    }
+        List<Question> questions = questionDao.loadQuestions();
+        int score = 0;
+        int questionCount = 0;
+        int maxQuestions = 5;
 
-    public String getCorrectAnswer(Question question) {
-        for (Question k : questions) {
-            if (k.getQuestion().equals(question.getQuestion())) {
-                return k.getAnswer();
+        for (Question question : questions) {
+            if (questionCount >= maxQuestions) {
+                break;
             }
+
+            System.out.print(question.getQuestion() + ": ");
+            String answer = scanner.nextLine();
+            String correctAnswer = question.getAnswer();
+
+            if (answer.equalsIgnoreCase(correctAnswer)) {
+                score++;
+            }
+            questionCount++;
         }
-        return null;
+
+        System.out.println("Результат тестирования для " + name + ":");
+        System.out.println("Правильных ответов: " + score);
+        System.out.println("Неправильных ответов: " + (questionCount - score));
     }
 }
