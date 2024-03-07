@@ -1,7 +1,9 @@
 package bean_questions.service;
 
-import bean_questions.model.Question;
 import bean_questions.dao.QuestionDao;
+import bean_questions.model.Question;
+import org.aspectj.lang.annotation.Before;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -13,6 +15,7 @@ public class QuestionServiceImpl implements QuestionService {
         this.questionDao = questionDao;
     }
 
+    @Before("Вы приступаете к тесту по волшебству!")
     @Override
     public void askQuestions() {
         Scanner scanner = new Scanner(System.in);
@@ -46,5 +49,15 @@ public class QuestionServiceImpl implements QuestionService {
         System.out.println("Результат тестирования для " + name + ":");
         System.out.println("Правильных ответов: " + score);
         System.out.println("Неправильных ответов: " + (questionCount - score));
+    }
+
+    @Override
+    public List<Question> getQuestions() {
+        return null;
+    }
+
+    @Override
+    public String getCorrectAnswer(Question question) {
+        return null;
     }
 }
