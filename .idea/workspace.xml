@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="quiz harry; add annotation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/train_aop/GreetingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/train_aop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="trying aspects">
+      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/annotation/LoggingMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/dao/QuestionDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" afterDir="false" />
     </list>
@@ -27,6 +28,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -100,7 +102,7 @@
       <module name="homework_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bean_questions.*" />
+          <option name="PATTERN" value="bean_questions.aspect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709369274866</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="trying aspects">
+      <created>1709789874222</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709789874222</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,7 +331,8 @@
     <MESSAGE value="Annotation java spring context&#10;example wrong package (component scan)" />
     <MESSAGE value="quiz harry" />
     <MESSAGE value="quiz harry; add annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="quiz harry; add annotation" />
+    <MESSAGE value="trying aspects" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying aspects" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

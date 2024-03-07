@@ -1,12 +1,13 @@
 package bean_questions.service;
 
+import bean_questions.aspect.annotation.LoggingMethod;
 import bean_questions.dao.QuestionDao;
 import bean_questions.model.Question;
-import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Scanner;
-
+@Service
 public class QuestionServiceImpl implements QuestionService {
 
     private final QuestionDao questionDao;
@@ -14,9 +15,18 @@ public class QuestionServiceImpl implements QuestionService {
     public QuestionServiceImpl(QuestionDao questionDao) {
         this.questionDao = questionDao;
     }
-
-    @Before("Вы приступаете к тесту по волшебству!")
     @Override
+    @LoggingMethod
+    public void sayHello(String name) {
+        System.out.println("Привет " + name);
+    }
+    @LoggingMethod
+    @Override
+    public void sayGoodbye(String name) {
+        System.out.println("Пока " + name);
+    }
+
+        @Override
     public void askQuestions() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите фамилию и имя: ");
