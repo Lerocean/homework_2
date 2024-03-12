@@ -10,6 +10,10 @@ public interface QuestionService {
     void askQuestions();
     void sayHello(String name);
 
+    void sayPassword(String name);
+    void sayAge(String name);
+
+    void sayYear(int year);
 
     List<Question> getQuestions();
 

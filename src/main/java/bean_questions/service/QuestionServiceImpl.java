@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Scanner;
+
 @Service
 public class QuestionServiceImpl implements QuestionService {
 
@@ -15,18 +16,39 @@ public class QuestionServiceImpl implements QuestionService {
     public QuestionServiceImpl(QuestionDao questionDao) {
         this.questionDao = questionDao;
     }
+
     @Override
     @LoggingMethod
     public void sayHello(String name) {
         System.out.println("Привет " + name);
     }
+
     @LoggingMethod
     @Override
     public void sayGoodbye(String name) {
         System.out.println("Пока " + name);
     }
 
-        @Override
+    @LoggingMethod
+    @Override
+    public void sayPassword(String name) {
+        System.out.println("Пароль " + name);
+    }
+
+    @LoggingMethod
+    @Override
+    public void sayAge(String name) {
+        System.out.println("Возраст " + name);
+    }
+
+    @LoggingMethod
+    @Override
+    public void sayYear(int year) {
+        System.out.println("Год рождения " + year);
+    }
+
+
+    @Override
     public void askQuestions() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите фамилию и имя: ");

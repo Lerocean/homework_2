@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="trying aspects">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/annotation/LoggingMethod.java" afterDir="false" />
+    <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="logging methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/dao/QuestionDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" afterDir="false" />
     </list>
@@ -136,7 +131,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6a85ffb4-e47c-4863-a970-465b7956b2d2" name="Changes" comment="" />
+      <changelist id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="logging methods" />
       <created>1706460099014</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -304,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709789874222</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="logging methods">
+      <created>1709795164085</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1709795164085</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +334,8 @@
     <MESSAGE value="quiz harry" />
     <MESSAGE value="quiz harry; add annotation" />
     <MESSAGE value="trying aspects" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying aspects" />
+    <MESSAGE value="logging methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="logging methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

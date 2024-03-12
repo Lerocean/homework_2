@@ -15,6 +15,9 @@ public class Main {
         questionService.askQuestions();
         questionService.sayHello("Саша");
         questionService.sayGoodbye("Саша");
+        questionService.sayPassword("12345");
+        questionService.sayAge("На 2 больше, чем 18");
+        questionService.sayYear(2004);
 
     }
 }
