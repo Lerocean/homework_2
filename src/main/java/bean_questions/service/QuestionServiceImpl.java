@@ -31,14 +31,14 @@ public class QuestionServiceImpl implements QuestionService {
 
     @LoggingMethod
     @Override
-    public void sayPassword(String name) {
-        System.out.println("Пароль " + name);
+    public void sayPassword(String password) {
+        System.out.println("Пароль " + password);
     }
 
     @LoggingMethod
     @Override
-    public void sayAge(String name) {
-        System.out.println("Возраст " + name);
+    public void sayAge(String riddle) {
+        System.out.println("Возраст " + riddle);
     }
 
     @LoggingMethod
@@ -47,6 +47,15 @@ public class QuestionServiceImpl implements QuestionService {
         System.out.println("Год рождения " + year);
     }
 
+    @Override
+    public void sayGreeting(String name) {
+
+    }
+
+    @Override
+    public void sayFarewell(String name) {
+
+    }
 
     @Override
     public void askQuestions() {
