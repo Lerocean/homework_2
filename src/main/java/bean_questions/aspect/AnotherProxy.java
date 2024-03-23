@@ -1,19 +1,16 @@
 package bean_questions.aspect;
 
-import bean_questions.dao.QuestionDao;
-import bean_questions.model.Question;
-import bean_questions.service.QuestionServiceImpl;
+import bean_questions.service.AnotherService;
+import org.springframework.stereotype.Service;
 
-public class AnotherProxy extends QuestionServiceImpl {
-    public AnotherProxy(QuestionDao dao) {
-        super(dao);
-    }
+@Service
+public class AnotherProxy extends AnotherService {
 
-    public Question getQuestion {
+    @Override
+    public void sayGreeting() {
         System.out.println("я логирую");
-        Question sayHello = super.sayHello(name);
+        super.sayGreeting();
         System.out.println("я закончил логировать");
-
-        return sayHello;
     }
+
 }

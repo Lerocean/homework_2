@@ -3,10 +3,9 @@ package bean_questions.service;
 import bean_questions.aspect.annotation.LoggingMethod;
 import bean_questions.dao.QuestionDao;
 import bean_questions.model.Question;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Scanner;
+import org.springframework.stereotype.Service;
 
 @Service
 public class QuestionServiceImpl implements QuestionService {

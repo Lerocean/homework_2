@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b536042d-ca90-403b-9182-1dc10ade2a75" name="Changes" comment="logging methods!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/AnotherProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/annotation/MyAfter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/annotation/MyAround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/annotation/MyBefore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/annotation/MyPointcut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/AnotherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/AnotherProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/AnotherProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/LoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/annotation/LoggingMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/aspect/annotation/LoggingMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/AnotherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/AnotherServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bean_questions/service/QuestionServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,17 +37,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2bajSxNCYshRJ5npAO3hwo1y0M2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.bean_questions.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="stream_by_mentor" />
@@ -300,35 +303,7 @@
       <option name="project" value="LOCAL" />
       <updated>1709369274866</updated>
     </task>
-    <task id="LOCAL-00023" summary="trying aspects">
-      <created>1709789874222</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1709789874222</updated>
-    </task>
-    <task id="LOCAL-00024" summary="logging methods">
-      <created>1709795164085</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1709795164085</updated>
-    </task>
-    <task id="LOCAL-00025" summary="logging methods!">
-      <created>1710234236218</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1710234236218</updated>
-    </task>
-    <task id="LOCAL-00026" summary="logging methods!">
-      <created>1710234279831</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1710234279831</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

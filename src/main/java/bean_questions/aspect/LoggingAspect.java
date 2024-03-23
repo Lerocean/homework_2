@@ -1,13 +1,19 @@
 package bean_questions.aspect;
 
-import bean_questions.aspect.annotation.*;
+import bean_questions.aspect.annotation.LoggingMethod;
+import bean_questions.aspect.annotation.MyAfter;
+import bean_questions.aspect.annotation.MyAround;
+import bean_questions.aspect.annotation.MyBefore;
+import bean_questions.aspect.annotation.MyPointcut;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.*;
-import org.springframework.stereotype.Component;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
 
-@Aspect
-@Component
+//@Aspect
+//@Component
 public class LoggingAspect {
     @Before("@annotation(loggingMethod)")
 
