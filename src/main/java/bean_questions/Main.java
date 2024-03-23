@@ -23,6 +23,6 @@ public class Main {
 
         AnotherService anotherService = context.getBean(AnotherService.class);
         anotherService.sayGreeting();
-//        anotherService.sayFarewell();
+        anotherService.sayFarewell();
     }
 }
