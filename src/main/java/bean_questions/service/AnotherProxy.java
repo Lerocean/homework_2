@@ -1,6 +1,5 @@
-package bean_questions.aspect;
+package bean_questions.service;
 
-import bean_questions.service.AnotherService;
 import org.springframework.stereotype.Service;
 
 @Service

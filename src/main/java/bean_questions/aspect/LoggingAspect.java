@@ -9,17 +9,23 @@ import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
 
-//@Aspect
-//@Component
+@Aspect
+@Component
 public class LoggingAspect {
     @Before("@annotation(loggingMethod)")
-
-    public void logBefore(JoinPoint joinPoint) {
+    public void logBefore(JoinPoint joinPoint, LoggingMethod loggingMethod) {
         String methodName = joinPoint.getSignature().getName();
         System.out.println("Вызван метод " + methodName);
+    }
+
+    @Before("@annotation(myBefore)")
+    public void myBeforeAdvice(JoinPoint joinPoint, MyBefore myBefore) {
+        System.out.println("Вызов метода с аннотацией @MyBefore: " + joinPoint.getSignature().getName());
     }
 
     @Around(value = "@annotation(loggingMethod)", argNames = "joinPoint, loggingMethod")
@@ -39,11 +45,6 @@ public class LoggingAspect {
     public void isLogPointcut() {
     }
 
-
-    @Before("@annotation(myBefore)")
-    public void myBeforeAdvice(JoinPoint joinPoint, MyBefore myBefore) {
-        System.out.println("Вызов метода с аннотацией @MyBefore: " + joinPoint.getSignature().getName());
-    }
 
     // Метод для аннотации @MyAfter
     @After("@annotation(myAfter)")

@@ -46,15 +46,6 @@ public class QuestionServiceImpl implements QuestionService {
         System.out.println("Год рождения " + year);
     }
 
-    @Override
-    public void sayGreeting(String name) {
-
-    }
-
-    @Override
-    public void sayFarewell(String name) {
-
-    }
 
     @Override
     public void askQuestions() {
